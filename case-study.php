@@ -160,7 +160,7 @@ if (!$project) {
 <footer>
   <small>© OGBEIDE ONOH. ALL RIGHTS RESERVED.</small> 
   <div>
-      <a href="https://www.linkedin.com/in/your-profile" target="_blank">
+      <a href="https://www.linkedin.com/in/osarieme-ogbeide-1a8209292/" target="_blank">
           <img src="images/linkedin.png" alt="LinkedIn Profile" width="30"> 
       </a>
   </div>

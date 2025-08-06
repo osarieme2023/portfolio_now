@@ -143,7 +143,7 @@ $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
       <h2 style="color: #666; font-size: 18px; font-weight: normal;">Industries we work with</h2>
     </div>
     
-    <!-- First scrolling row -->
+  
     <div class="marquee-container marquee-row">
       <div class="marquee-text">
         <span class="outline">TECHNOLOGY</span>
@@ -160,7 +160,7 @@ $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
       </div>
     </div>
 
-    <!-- Second scrolling row (moves opposite direction) -->
+   
     <div class="marquee-container marquee-row">
       <div class="marquee-text">
         <span class="solid">BRANDING</span>
@@ -237,68 +237,7 @@ $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
   </main>
      
-  <!-- <header>
-    <div class="header-sec grid-con">
-      <nav class="navigation col-span-full l-col-start-">
-        <picture>
-          <img src="images/main-logo.svg" alt="Logo" />
-        </picture>
 
-        <ul class="sidebar" id="desk-hid">
-          <li>
-            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                fill="#e8eaed">
-                <path
-                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
-              </svg></a>
-          </li>
-          <li><a href="index.php">PORTFOLIO</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-
-        <ul>
-          <li class="hidemobile"><a href="index.php">PORTFOLIO</a></li>
-          <li class="hidemobile"><a href="about.html">ABOUT</a></li>
-          <li class="hidemobile"><a href="contact.html">CONTACT</a></li>
-          <li class="hideondesktop">
-            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                fill="#000">
-                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header> -->
-
-
-<!-- <main>
-  <section class="index-hero-section">
-    <div class="grid-con hero-section">
-      <div class="col-span-full hero-section-text">
-        <h1>Hello!</h1>
-          <p>Welcome, I'm Onoh—a product, motion, and 3D designer based in London, Ontario. I specialize in crafting
-            comprehensive UX/UI designs and immersive 3D animations that blend interactivity with visual appeal, creating
-            seamless and engaging user experiences.
-          </p>
-      </div>
-    </div>
-  </section>
-
-
-
-<footer class="grid-con">
-    <div class="col-span-full footer-con">
-      <small>© OGBEIDE ONOH. ALL RIGHTS RESERVED.</small> 
-        <div>
-          <a href="https://www.linkedin.com/in/your-profile" target="_blank">
-            <img src="images/Portfolio-image/Cover images/LinkedIn.png" alt="LinkedIn Profile" width="30">
-          </a>
-        </div>
-    </div>
-</footer>  -->
 
 <script src="js/main.js" type="module"></script>
 </body>

@@ -1,8 +1,7 @@
 h1,h2,h3{font-family:"Montserrat",sans-serif;line-height:1.2}h1{font-size:2.25rem}h2{font-size:1.5rem}h3{font-size:1.125rem}p{font-size:16px;margin-bottom:1rem}.heading-text h2{margin-bottom:24px}.heading-text p{font-size:2.7rem}img{max-width:100%;height:auto;display:block}*{margin:0;padding:0;box-sizing:border-box}html,body{font-family:"Poppins",sans-serif;font-size:16px;line-height:1.6;color:#fff;background-color:#000;height:100%}a{color:#e43d60;text-decoration:none}a:hover{text-decoration:underline}button{cursor:pointer;border:none;background:none;font-family:"Poppins",sans-serif}.fade-up{opacity:0;transform:translateY(30px)}.clip-reveal{position:relative;overflow:hidden}.clip-reveal::before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:#e43d60;transform:translateX(-100%)}.stagger-children>*{opacity:0;transform:translateY(20px)}.hero-img{width:100%;margin-top:72px}.hero-img img{width:100%;-o-object-fit:cover;object-fit:cover}.hero-text{width:100%;margin-top:16px;display:flex;justify-content:space-between}#about{margin-top:72px}#about .about-text{margin-top:72px}#projects{margin-top:72px}#projects #projects-con{display:flex;flex-direction:column;gap:22px;justify-content:space-between;overflow:hidden;margin-top:32px}#projects #projects-con .project-box{height:auto;width:100%;display:flex;flex-direction:column;gap:16px;position:relative;margin-top:82px}#projects #projects-con .project-box img{width:100%;height:400px;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center;border-radius:22px}#projects #projects-con .project-box .project-text{display:flex;justify-content:space-between;gap:16px}#projects #projects-con .project-box .project-text h3{flex:1}#projects #projects-con .project-box .project-text p{flex:3}#projects #projects-con .project-box::after{content:"";position:absolute;bottom:-42px;left:0;height:6px;width:100%;background-color:#fff}#projects #projects-con .project-box:first-child{margin-top:0}#service{margin-top:72px}#service .service-section .service-vid .video{margin-top:24px;height:100%;width:100%;background-color:#000}#service .service-section .service-vid .video video{width:100%;height:100%}#contact{margin-top:72px}.contact-form{margin-top:72px;padding:48px;background-color:#fff;border-radius:40px}.contact-form #contactForm .form-item{display:flex;flex-direction:column;color:#000;margin-bottom:16px}.contact-form #contactForm .form-item .input-box{height:30px;margin-top:4px;width:100%;border:none;border-bottom:2px solid #000;font-size:1rem}.contact-form #contactForm .form-item #message{height:80px}.contact-form #contactForm .submit-btn{background-color:#000;color:#fff;margin-top:48px;padding:8px 24px;border-radius:8px;font-size:1rem}#footer{margin-top:72px;padding-bottom:32px}#footer .footer-con .divider{margin-bottom:24px}.divider{width:100%;height:.3rem;background-color:#fff}.carousel-con{display:flex;justify-content:space-between;align-items:center;gap:32px}.carousel-con .carousel-item p{font-size:76px}/*# sourceMappingURL=main.css.map */
 
-/* ========== CASE STUDY SPECIFIC STYLES ========== */
 
-/* Case study main container */
+
 .case-study-container {
   max-width: 80%;
   margin: auto;
@@ -17,7 +16,7 @@ h1,h2,h3{font-family:"Montserrat",sans-serif;line-height:1.2}h1{font-size:2.25re
   }
 }
 
-/* Top 3 images - small grid at very top */
+
 .top-images-grid {
   margin-top: 30px;
   display: flex;
@@ -47,7 +46,7 @@ h1,h2,h3{font-family:"Montserrat",sans-serif;line-height:1.2}h1{font-size:2.25re
   }
 }
 
-/* Hero/Intro Section */
+
 .intro {
   margin-top: 165px;
 }
@@ -113,7 +112,7 @@ h1,h2,h3{font-family:"Montserrat",sans-serif;line-height:1.2}h1{font-size:2.25re
   }
 }
 
-/* Case Study Sections (Challenge, Solution, Outcome) */
+
 .case-study {
   margin-top: 165px;
 }
@@ -139,7 +138,7 @@ h1,h2,h3{font-family:"Montserrat",sans-serif;line-height:1.2}h1{font-size:2.25re
   }
 }
 
-/* Alternate layout for solution section */
+
 .solution {
   flex-direction: row-reverse;
 }
@@ -203,7 +202,7 @@ h1,h2,h3{font-family:"Montserrat",sans-serif;line-height:1.2}h1{font-size:2.25re
   }
 }
 
-/* Final showcase section */
+
 .section-img {
   margin-top: 165px;
   display: flex;
@@ -230,7 +229,7 @@ h1,h2,h3{font-family:"Montserrat",sans-serif;line-height:1.2}h1{font-size:2.25re
   }
 }
 
-/* Next project button */
+
 .next-project-section {
   margin-top: 165px;
   text-align: center;
@@ -269,7 +268,7 @@ h1,h2,h3{font-family:"Montserrat",sans-serif;line-height:1.2}h1{font-size:2.25re
   }
 }
 
-/* Footer for case study */
+
 footer {
   margin-top: 165px;
   display: flex;
@@ -313,7 +312,7 @@ footer div a img {
   }
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 1280px) {
   .case-hero h2 {
     font-size: 60px;
@@ -331,9 +330,7 @@ footer div a img {
   }
 }
 
-/* ========== HOVER PREVIEW STYLES ========== */
 
-/* Project box container */
 .project-box {
   position: relative;
   overflow: hidden;
@@ -346,7 +343,7 @@ footer div a img {
   transform: translateY(-5px);
 }
 
-/* Image container */
+
 .project-box a {
   position: relative;
   display: block;
@@ -360,7 +357,7 @@ footer div a img {
   display: block;
 }
 
-/* Hover overlay */
+
 .project-box a::after {
   content: '';
   position: absolute;
@@ -379,7 +376,7 @@ footer div a img {
   z-index: 1;
 }
 
-/* Preview text overlay */
+
 .project-box a::before {
   content: attr(data-preview);
   position: absolute;
@@ -399,7 +396,7 @@ footer div a img {
   pointer-events: none;
 }
 
-/* Hover effects */
+
 .project-box:hover a::after {
   opacity: 1;
 }
@@ -414,7 +411,7 @@ footer div a img {
   filter: blur(1px);
 }
 
-/* Project text styling */
+
 .project-text {
   padding: 15px 0;
   transition: opacity 0.3s ease;
@@ -436,7 +433,7 @@ footer div a img {
   opacity: 0.9;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
   .project-box a::before {
     font-size: 14px;
@@ -452,17 +449,17 @@ footer div a img {
   }
 }
 
-/* Optional: Add a subtle border on hover */
+
 .project-box:hover {
   box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
 }
 
-/* Smooth animation for the entire container */
+
 .project-box {
   transition: all 0.3s ease;
 }
 
-/* Add a "View Case Study" indicator */
+
 .project-box a::after {
   background: linear-gradient(
     135deg, 
@@ -472,20 +469,20 @@ footer div a img {
   );
 }
 
-/* Style for the preview content */
+
 .project-box[data-preview] a::before {
   content: attr(data-preview) "\A\A→ View Full Case Study";
   white-space: pre-line;
   font-weight: 400;
 }
 
-/* Last line styling for the call-to-action */
+
 .project-box[data-preview] a::before {
   content: attr(data-preview) "\A\A" "→ View Full Case Study";
   white-space: pre-line;
 }
 
-/* Simple test hover effect */
+
 .project-box:hover img {
   transform: scale(1.1);
   transition: transform 0.3s ease;
@@ -495,7 +492,7 @@ footer div a img {
   transition: transform 0.3s ease;
 }
 
-/* Overlay effect */
+
 .project-box a {
   position: relative;
   display: block;
@@ -518,7 +515,7 @@ footer div a img {
   opacity: 1;
 }
 
-/* Preview text */
+
 .project-box a::before {
   content: attr(data-preview);
   position: absolute;
@@ -540,7 +537,7 @@ footer div a img {
   opacity: 1;
 }
 
-/* ========== SCROLLING MARQUEE STYLES ========== */
+
 
 #slice-carousel {
   margin-top: 165px;
@@ -577,7 +574,7 @@ footer div a img {
   font-family: "Libre Baskerville", serif;
 }
 
-/* Different styles for variety */
+
 .marquee-text .outline {
   -webkit-text-stroke: 2px #fff;
   -webkit-text-fill-color: transparent;
@@ -605,13 +602,13 @@ footer div a img {
   }
 }
 
-/* Second row moves opposite direction */
+
 .marquee-row:nth-child(3) .marquee-text {
   animation-direction: reverse;
   animation-duration: 20s;
 }
 
-/* Mobile adjustments */
+
 @media (max-width: 460px) {
   .marquee-text {
     font-size: 28px;
@@ -623,7 +620,7 @@ footer div a img {
   }
 }
 
-/* Optional: Pause on hover */
 .marquee-container:hover .marquee-text {
   animation-play-state: paused;
 }
+

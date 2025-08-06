@@ -1,7 +1,7 @@
 <?php
 require_once 'includes/connect.php';
 
-// Check if project_id exists in URL
+
 if (!isset($_GET['project_id']) || !is_numeric($_GET['project_id'])) {
     echo "Invalid project ID";
     exit;
@@ -9,25 +9,25 @@ if (!isset($_GET['project_id']) || !is_numeric($_GET['project_id'])) {
 
 $projectId = (int) $_GET['project_id'];
 
-// Fetch the case study data from database
+
 $sql = "SELECT * FROM case_studies WHERE project_id = ?";
 $stmt = $connect->prepare($sql);
 $stmt->execute([$projectId]);
 $caseStudy = $stmt->fetch(PDO::FETCH_ASSOC);
 
-// Check if case study exists
+
 if (!$caseStudy) {
     echo "Case study not found.";
     exit;
 }
 
-// Fetch project title
+
 $projectSql = "SELECT title FROM projects WHERE project_id = ?";
 $projectStmt = $connect->prepare($projectSql);
 $projectStmt->execute([$projectId]);
 $project = $projectStmt->fetch(PDO::FETCH_ASSOC);
 
-// Check if project exists
+
 if (!$project) {
     echo "Project not found.";
     exit;
@@ -50,10 +50,10 @@ if (!$project) {
   <header>
     <div class="header-sec grid-con">
       <nav class="col-span-full" style="display: flex; justify-content: space-between; align-items: center; padding: 1rem 0;">
-        <!-- Logo on the left -->
+       
         <img src="images/Portfolio_content/onoh_logo.svg" alt="Logo" style="height: 30px; width: auto;" />
         
-        <!-- Navigation links on the right -->
+        
         <div class="nav-links">
           <a href="index.php">Home</a>
           <a href="#work">Work</a>

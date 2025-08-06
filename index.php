@@ -222,6 +222,11 @@ $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </div>
 
         <div class="col-span-full footer-item">
+      <a href="https://www.linkedin.com/in/osarieme-ogbeide-1a8209292/" target="_blank">
+          <img src="images/linkedin.png" alt="LinkedIn Profile" width="30"> 
+      </a>
+
+        <div class="col-span-full footer-item">
           <div class="socials">
             <img src="" alt="">
             <img src="" alt="">

@@ -1,0 +1,15 @@
+@use '../abstracts' as *;
+
+.carousel-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+
+  .carousel-item {
+    p {
+      font-size: 76px;
+      
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@use '../abstracts' as *;
+
+#contact {
+  margin-top: 72px;
+}
+
+.contact-form {
+  margin-top: 72px;
+  padding: 48px;
+  background-color: #fff;
+  border-radius: 40px;
+
+  #contactForm {
+    .form-item {
+      display: flex;
+      flex-direction: column;
+      color: #000;
+      margin-bottom: 16px;
+
+      .input-box {
+        height: 30px;
+        margin-top: 4px;
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid #000;
+        font-size: 1rem;
+      }
+
+      #message {
+        height: 80px;
+      }
+    }
+
+    .submit-btn {
+      background-color: #000;
+      color: #fff;
+      margin-top: 48px;
+      padding: 8px 24px;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+  }
+}

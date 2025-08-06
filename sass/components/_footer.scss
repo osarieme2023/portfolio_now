@@ -1,0 +1,12 @@
+@use '../abstracts' as *;
+
+#footer {
+  margin-top: 72px;
+  padding-bottom: 32px;
+
+  .footer-con {
+    .divider {
+      margin-bottom: 24px;
+    }
+  }
+}

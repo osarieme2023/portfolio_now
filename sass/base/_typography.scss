@@ -1,0 +1,35 @@
+@use '../abstracts' as *;
+
+h1,
+h2,
+h3 {
+    font-family: $font-family-heading;
+    line-height: $line-height-heading;
+}
+
+h1 {
+    font-size: $font-size-xxl;
+}
+
+h2 {
+    font-size: $font-size-xl;
+}
+
+h3 {
+    font-size: $font-size-lg;
+}
+
+p {
+    font-size: $font-size-base;
+    margin-bottom: $spacing-md;
+}
+
+.heading-text {
+    h2 {
+      margin-bottom: 24px;
+    }
+
+    p {
+      font-size: 2.7rem;
+    }
+  }

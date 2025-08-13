@@ -137,19 +137,35 @@ function handleContactForm() {
     let messageInput = document.querySelector('textarea[name="message"]');
     let feedback = document.querySelector('.feedback');
     
-    
     if (!nameInput.value || !emailInput.value || !messageInput.value) {
         feedback.innerHTML = '<p style="color: red;">Please fill in all fields.</p>';
         return;
     }
     
-  
-    feedback.innerHTML = '<p style="color: green;">Thank you for your message! I will get back to you soon.</p>';
+    let formData = new FormData();
+    formData.append('name', nameInput.value);
+    formData.append('email', emailInput.value);
+    formData.append('message', messageInput.value);
     
-   
-    nameInput.value = '';
-    emailInput.value = '';
-    messageInput.value = '';
+    fetch('contact.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            feedback.innerHTML = '<p style="color: green;">' + data.message + '</p>';
+            nameInput.value = '';
+            emailInput.value = '';
+            messageInput.value = '';
+        } else {
+            feedback.innerHTML = '<p style="color: red;">' + data.message + '</p>';
+        }
+    })
+    .catch(error => {
+        feedback.innerHTML = '<p style="color: red;">Error sending message. Please try again.</p>';
+        console.error('Error:', error);
+    });
 }
 
 

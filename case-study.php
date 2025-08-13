@@ -42,7 +42,7 @@ if (!$project) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/grid.css">
-  <script type="module" src="js/home.js"></script>
+  <script type="module" src="js/main.js"></script>
   <title><?php echo htmlspecialchars($project['title']); ?> - Case Study</title>
 </head>
 

@@ -97,5 +97,24 @@
 
 
 <script src="js/main.js" type="module"></script>
+<!-- <div id="portfolio-lightbox" class="lightbox-overlay">
+    <div class="lightbox-container">
+        <button class="lightbox-close">&times;</button>
+        <button class="lightbox-prev">‹</button>
+        <button class="lightbox-next">›</button>
+        
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-image">
+            <div class="lightbox-info">
+                <h3 class="lightbox-title"></h3>
+                <p class="lightbox-description"></p>
+            </div>
+        </div>
+        
+        <div class="lightbox-counter">
+            <span class="current">1</span> / <span class="total">1</span>
+        </div>
+    </div>
+</div> -->
 </body>
 </html>

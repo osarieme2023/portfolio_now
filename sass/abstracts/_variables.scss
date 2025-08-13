@@ -1,8 +1,41 @@
-$primary-color: #E43D60;
-$secondary-color: #000000;
-$text-color: #333333;
-$light-color: #D9D9D9;
+$primary-red: #e43d60;
+$white: #ffffff;
+$black: #000000;
+$text-gray: #cccccc;
+$light-gray: #666666;
 
-$spacing-sm: 0.5rem;
-$spacing-md: 1rem;
-$spacing-lg: 2rem;
+
+$font-primary: "Poppins", sans-serif;
+$font-heading: "Montserrat", sans-serif;
+$font-serif: "Libre Baskerville", serif;
+$font-display: "Konkhmer Sleokchher";
+
+
+$font-size-h1: 2.25rem;
+$font-size-h2: 1.5rem;
+$font-size-h3: 1.125rem;
+$font-size-base: 16px;
+$font-size-heading-large: 2.7rem;
+$font-size-carousel: 76px;
+
+
+$margin-standard: 72px;
+$margin-large: 165px;
+$margin-small: 32px;
+$margin-tiny: 16px;
+$margin-mobile: 70px;
+
+
+$border-radius-small: 4px;
+$border-radius-medium: 8px;
+$border-radius-large: 22px;
+$border-radius-xl: 40px;
+
+
+$transition-fast: 0.3s ease;
+$transition-medium: 0.4s ease;
+
+
+$mobile: 460px;
+$tablet: 768px;
+$desktop: 1280px;
